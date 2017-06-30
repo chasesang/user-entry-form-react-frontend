@@ -35,6 +35,7 @@ class App extends Component {
       return (
         <div className="App">
           <h1>Users Entry</h1>
+          <span> created by {this.props.name} </span>
           <nav>
             <a href onClick={e => {
               e.preventDefault();

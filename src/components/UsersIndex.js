@@ -44,7 +44,7 @@ class UsersIndex extends React.Component {
               <th className="text-center">ID</th>
               <th className="text-center">First Name</th>
               <th className="text-center">Last Name</th>
-              <th className="text-center">DOB</th>
+              <th className="text-center">Living Days</th>
             </tr>
           </thead>
           {this.renderUsers()}
@@ -55,3 +55,9 @@ class UsersIndex extends React.Component {
 }
 
 export default UsersIndex;
+
+
+
+// days in
+// current date -  DOB = Days
+//
