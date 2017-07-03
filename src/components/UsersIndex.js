@@ -55,9 +55,3 @@ class UsersIndex extends React.Component {
 }
 
 export default UsersIndex;
-
-
-
-// days in
-// current date -  DOB = Days
-//
