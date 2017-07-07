@@ -44,6 +44,7 @@ class UsersIndex extends React.Component {
               <th className="text-center">ID</th>
               <th className="text-center">First Name</th>
               <th className="text-center">Last Name</th>
+              
               <th className="text-center">Living Days</th>
             </tr>
           </thead>
