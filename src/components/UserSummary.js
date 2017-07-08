@@ -23,7 +23,7 @@ function UserSummary(props) {
           <a onClick={handleClick} href>{props.DOB}</a>
         </td>
         <td>
-          {Math.floor((Date.now()-Date.parse(props.DOB))/86400000)}
+        <a onClick={handleClick} href>{Math.floor((Date.now()-Date.parse(props.DOB))/86400000)}</a>
         </td>
       </tr>
     </tbody>
